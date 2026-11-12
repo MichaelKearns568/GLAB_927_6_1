@@ -1,0 +1,23 @@
+[project]
+name = "glab-927-6-1"
+version = "0.1.0"
+description = "Automated customer support workflows and sequential prompt chains built with LangChain and Groq."
+readme = "README.md"
+authors = [
+    { name = "MichaelKearns568", email = "mkaipromptengineeringps@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "langchain>=1.0.0",
+    "langchain-classic>=1.0.8",
+    "langchain-community>=0.4.2",
+    "langchain-core>=1.8.0",
+    "langchain-groq>=1.1.3",
+]
+
+[project.scripts]
+glab-927-6-1 = "glab_927_6_1:main"
+
+[build-system]
+requires = ["uv_build>=0.13.7,<0.14.0"]
+build-backend = "uv_build"
